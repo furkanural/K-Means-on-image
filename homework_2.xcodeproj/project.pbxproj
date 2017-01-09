@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BB023681DE6F223005BE0F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB023671DE6F223005BE0F4 /* main.cpp */; };
+		2B386C4F1DEF5A3A00B8B389 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B386C4D1DEF5A3A00B8B389 /* main.cpp */; };
+		2BC8E74E1DEDCE1800795202 /* libopencv_core.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC8E74D1DEDCE1800795202 /* libopencv_core.3.1.0.dylib */; };
+		2BC8E7501DEDCE4D00795202 /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC8E74F1DEDCE4D00795202 /* libopencv_highgui.3.1.0.dylib */; };
+		2BC8E7521DEDCE8800795202 /* libopencv_imgproc.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC8E7511DEDCE8800795202 /* libopencv_imgproc.3.1.0.dylib */; };
+		2BC8E7541DEDCEC400795202 /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC8E7531DEDCEC400795202 /* libopencv_imgcodecs.3.1.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2BB023641DE6F223005BE0F4 /* homework_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework_2; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BB023671DE6F223005BE0F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B386C4D1DEF5A3A00B8B389 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BB023641DE6F223005BE0F4 /* homework_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = homework_2; path = /Users/uralfrkn/work/homework_2/build/Debug/homework_2; sourceTree = "<absolute>"; };
+		2BC8E74D1DEDCE1800795202 /* libopencv_core.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.1.0.dylib; path = "../../../../usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib/libopencv_core.3.1.0.dylib"; sourceTree = "<group>"; };
+		2BC8E74F1DEDCE4D00795202 /* libopencv_highgui.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.1.0.dylib; path = "../../../../usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib/libopencv_highgui.3.1.0.dylib"; sourceTree = "<group>"; };
+		2BC8E7511DEDCE8800795202 /* libopencv_imgproc.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.1.0.dylib; path = "../../../../usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib/libopencv_imgproc.3.1.0.dylib"; sourceTree = "<group>"; };
+		2BC8E7531DEDCEC400795202 /* libopencv_imgcodecs.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.3.1.0.dylib; path = "../../../../usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib/libopencv_imgcodecs.3.1.0.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC8E74E1DEDCE1800795202 /* libopencv_core.3.1.0.dylib in Frameworks */,
+				2BC8E7501DEDCE4D00795202 /* libopencv_highgui.3.1.0.dylib in Frameworks */,
+				2BC8E7541DEDCEC400795202 /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */,
+				2BC8E7521DEDCE8800795202 /* libopencv_imgproc.3.1.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,23 +53,18 @@
 		2BB0235B1DE6F222005BE0F4 = {
 			isa = PBXGroup;
 			children = (
+				2BC8E7531DEDCEC400795202 /* libopencv_imgcodecs.3.1.0.dylib */,
+				2BC8E7511DEDCE8800795202 /* libopencv_imgproc.3.1.0.dylib */,
+				2BC8E74F1DEDCE4D00795202 /* libopencv_highgui.3.1.0.dylib */,
+				2BC8E74D1DEDCE1800795202 /* libopencv_core.3.1.0.dylib */,
 				2BB023661DE6F223005BE0F4 /* homework_2 */,
-				2BB023651DE6F223005BE0F4 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2BB023651DE6F223005BE0F4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2BB023641DE6F223005BE0F4 /* homework_2 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2BB023661DE6F223005BE0F4 /* homework_2 */ = {
 			isa = PBXGroup;
 			children = (
-				2BB023671DE6F223005BE0F4 /* main.cpp */,
+				2B386C4D1DEF5A3A00B8B389 /* main.cpp */,
 			);
 			path = homework_2;
 			sourceTree = "<group>";
@@ -105,7 +112,7 @@
 				en,
 			);
 			mainGroup = 2BB0235B1DE6F222005BE0F4;
-			productRefGroup = 2BB023651DE6F223005BE0F4 /* Products */;
+			productRefGroup = 2BB0235B1DE6F222005BE0F4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB023681DE6F223005BE0F4 /* main.cpp in Sources */,
+				2B386C4F1DEF5A3A00B8B389 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +223,13 @@
 		2BB0236C1DE6F223005BE0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv3/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/opencv3/**",
+					"/usr/local/Cellar/opencv3/HEAD-e04eb8c_4/lib",
+					"/usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +237,13 @@
 		2BB0236D1DE6F223005BE0F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv3/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/opencv3/**",
+					"/usr/local/Cellar/opencv3/HEAD-e04eb8c_4/lib",
+					"/usr/local/Cellar/opencv3/HEAD-2c03c8d_4/lib",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +267,7 @@
 				2BB0236D1DE6F223005BE0F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
